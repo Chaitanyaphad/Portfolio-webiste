@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import profile_img from '../../assets/about_profile.svg' 
+import profile_img from '../../assets/Profile_img.png' 
 
 const About = () => {
     return (
@@ -18,22 +18,22 @@ const About = () => {
                 </div>
                 <div className="about-right">
                     <div className="about-para">
-                        <p>I am a experienced Frontend Developer with over a decade pf professional expertice in the field. Throughtout my career, I have had the privilage of collaborating with prestigious orginization, contributing to their success and growth</p>
-                        <p>My Passion for Frontend development is not only reflected in my extensive experince but also in the enthusiam and dedication I bring to each project</p>
+                        <p>I am Chaitanya Phad, a passionate and dedicated Computer Engineering student at Vishwakarma Institute of Technology, currently in my final year of study. With a strong academic record, including a CGPA of 8.46, and a robust foundation in both theoretical and practical aspects of computer science, I am excited to apply my knowledge and skills to real-world challenges.</p>
+                        <p>Throughout my academic journey, I have developed a keen interest in data science, machine learning, artificial intelligence, NLP, Database, Front-end and back-end development</p>
                     </div>
 
                     <div className="about-skills">
                         <div className="about-skill">
-                            <p>HTML & CSS</p> <hr style={{width: "50%"}}/>
+                            <p>Data Science</p> <hr style={{width: "60%"}}/>
                         </div>
                         <div className="about-skill">
-                            <p>React JS</p> <hr style={{width: "70%"}}/>
+                            <p>Machine Learning</p> <hr style={{width: "65%"}}/>
                         </div>
                         <div className="about-skill">
-                            <p>JavaScript</p> <hr style={{width: "60%"}}/>
+                            <p>Front-end Developmwnt</p> <hr style={{width: "60%"}}/>
                         </div>
                         <div className="about-skill">
-                            <p>Node JS</p> <hr style={{width: "50%"}}/>
+                            <p>Back-end Development</p> <hr style={{width: "40%"}}/>
                         </div>
                     </div>
                 </div>
@@ -42,17 +42,34 @@ const About = () => {
             <div className="about-achievements">
                 <div className="about-achievement">
                     <h1>10+</h1>
-                    <p>Years of Experience</p>
+                    <p>Projects</p>
                 </div>
                 <hr />
                 <div className="about-achievement">
-                    <h1>90+</h1>
-                    <p>Projects Completed</p>
+                    <h1>250+</h1>
+                    <p>Solved DSA Questions on leetcode and GFG</p>
                 </div>
                 <hr />
                 <div className="about-achievement">
-                    <h1>15+</h1>
-                    <p>Happy Clients</p>
+                    <h1>4</h1>
+                    <p>Research Papers Published</p>
+                </div>
+            </div>
+
+            <div className="about-achievements">
+                <div className="about-achievement">
+                    <h1>8.46</h1>
+                    <p>CGPA</p>
+                </div>
+                <hr />
+                <div className="about-achievement">
+                    <h1>90.50%</h1>
+                    <p>HSC</p>
+                </div>
+                <hr />
+                <div className="about-achievement">
+                    <h1>96.00%</h1>
+                    <p>SSC</p>
                 </div>
             </div>
         </div>
