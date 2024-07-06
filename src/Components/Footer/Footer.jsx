@@ -1,6 +1,5 @@
 import React from 'react'
 import './Footer.css'
-import footer_logo from '../../assets/footer_logo.svg'
 import user_icon from '../../assets/user_icon.svg'
 
 const Footer = () => {
@@ -10,8 +9,8 @@ const Footer = () => {
             <div className="footer-top">
 
                 <div className="footer-top-left">
-                    <img src={footer_logo} alt="" />
-                    <p>I am a frontend developer from, USA with 10 years of experience in companies like Microsoft, Tesla and Apple</p>
+                    <p id='logo'>Chaitanya</p>
+                    <p>I am a frontend developer from, India graduating from Vit Pune, looking forward to explore new opportunities</p>
                 </div>
 
                 <div className="footer-top-right">
@@ -25,7 +24,7 @@ const Footer = () => {
             <hr />
                 <div className="footer-bottom">
                   <p className="footer-bottom-left">
-                    © 2023 Alex Bennett. All rights reserved.
+                    © 2024 Chaitanya Phad. All rights reserved.
                   </p>
                   <div className="footer-bottom-right">
                     <p>Term of Service</p>
